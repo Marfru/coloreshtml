@@ -26,7 +26,7 @@ export function Navbar() {
               ColoresHTML
             </Link>
 
-            <div className="relative flex items-center">
+            <div className="hidden relative sm:flex items-center">
               <Link href="/" className="text-sm">
                 Paletas
               </Link>
@@ -38,7 +38,7 @@ export function Navbar() {
 
           <div className="flex items-center gap-6">
             <nav className="flex gap-4">
-              <div className="relative flex items-center">
+              <div className="hidden relative sm:flex items-center">
                 <Link href="/" className="text-sm">
                   Panel
                 </Link>
