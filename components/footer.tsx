@@ -1,7 +1,5 @@
 "use client";
 
-import Link from "next/link";
-
 export function Footer() {
   return (
     <footer className="bg-background">
