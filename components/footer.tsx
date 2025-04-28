@@ -9,7 +9,7 @@ export function Footer() {
             Built by{" "}
             <a
               href="https://marfru.dev"
-              className="font-medium underline underline-offset-4"
+              className="font-bold underline underline-offset-4"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Marfru's website"
@@ -19,7 +19,7 @@ export function Footer() {
             using{" "}
             <a
               href="https://nextjs.org/"
-              className="font-medium underline underline-offset-4"
+              className="font-bold"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Official Next.js website"
@@ -29,14 +29,23 @@ export function Footer() {
             and{" "}
             <a
               href="https://ui.shadcn.com/"
-              className="font-medium underline underline-offset-4"
+              className="font-bold"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Official ui shadcn website"
             >
               shadcn
             </a>
-            .
+            . Check the{" "}
+            <a
+              href="https://old.coloreshtml.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Old version of ColoresHTML"
+              className="font-bold underline underline-offset-4"
+            >
+              old version
+            </a>
           </p>
         </div>
       </div>
