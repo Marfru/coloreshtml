@@ -6,7 +6,7 @@ import { ThemeToggle } from "./theme-toggle";
 export function Navbar() {
   return (
     <header className="bg-background">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 mt-4">
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center gap-8">
             <Link

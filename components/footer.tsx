@@ -2,9 +2,9 @@
 
 export function Footer() {
   return (
-    <footer className="bg-background">
+    <footer className="bg-background mb-8">
       <div className="container mx-auto px-4">
-        <div className="flex h-16 items-center justify-center">
+        <div className="flex h-16 items-center justify-center text-center">
           <p className="text-balance text-sm leading-loose text-muted-foreground">
             Built by{" "}
             <a
