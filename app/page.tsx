@@ -32,7 +32,7 @@ export default function Home() {
               variant={
                 selectedTitles.includes(section.title) ? "default" : "outline"
               }
-              className="cursor-pointer flex items-center gap-1 transition-colors"
+              className="cursor-pointer flex items-center gap-1 transition-colors p-2"
             >
               {selectedTitles.includes(section.title) && (
                 <Check className="h-3 w-3 text-white dark:text-black" />
